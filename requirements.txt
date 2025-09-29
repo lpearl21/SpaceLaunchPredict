@@ -1,0 +1,25 @@
+---
+
+# data/README.md
+```markdown
+# Data Directory
+
+## Structure
+
+- `raw/` - Original unprocessed data files
+- `processed/` - Cleaned and feature-engineered datasets
+
+## Files
+
+### Raw Data
+- `Space_Corrected.csv` - Original rocket launch dataset (1957-2020)
+  - 4,324 launches
+  - 8 original columns
+
+### Processed Data
+- `rocket_launches_with_weather_ml_ready.csv` - Enhanced dataset
+  - Weather features added
+  - 32 total features
+  - Ready for ML training
+
+## Data Pipeline
