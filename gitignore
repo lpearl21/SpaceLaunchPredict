@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data files (too large for Git)
+data/raw/Space_Corrected.csv
+data/processed/rocket_launches_with_weather_ml_ready.csv
+*.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Model files
+*.pkl
+*.joblib
+models/saved_models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.envrc
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
